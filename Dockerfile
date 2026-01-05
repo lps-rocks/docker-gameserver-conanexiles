@@ -2,6 +2,7 @@ FROM ghcr.io/parkervcp/yolks:wine_latest
 
 ENV AUTO_UPDATE=1
 ENV SRCDS_APPID=443030
+ENV SERVER_PORT=7778
 ENV QUERY_PORT=27015
 ENV RCON_PORT=25575
 ENV SRV_NAME="Pterodactyl hosted Server"
